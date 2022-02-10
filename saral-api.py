@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-#### now updated
+#### saral api
 
 if os.path.exists("courses.json"):
     with open("courses.json", "r") as f:
@@ -83,22 +83,3 @@ for exerciseId in range(len(exerciseList)):
 with open("child-exercise.json", "w") as fle:
     out_file = json.dump(exerciseMatch, fle, indent=4)
     
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
